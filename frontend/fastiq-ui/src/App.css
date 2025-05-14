@@ -31,8 +31,11 @@ button {
 }
 
 .response {
-  margin-top: 2rem;
-  background: #f9f9f9;
+  background-color: #1f2937; 
+  color: #f9fafb;            
   padding: 1rem;
-  border-radius: 6px;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-family: monospace;
+  white-space: pre-wrap;
 }

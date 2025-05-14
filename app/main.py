@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# app.include_router(insights_router)
+
 app.include_router(insights_router, prefix="/insights")
 app.include_router(labeling_router, prefix="/labeling")
 app.include_router(metrics_router, prefix="/metrics")
